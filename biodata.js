@@ -1,0 +1,5 @@
+console.log("Name:- Dev nagariya")
+console.log("Age:-  17")
+console.log("Email:-devnagariya5@gmail.com")
+console.log("Address:- Navi Mumbai in Airoli Sector 4 C88")
+console.log("School:-I have a compilited school passing mark in 10th 80% 12th 99%")
