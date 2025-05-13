@@ -1,11 +1,12 @@
-var colors = ["red","green","blue","orange","yellow","darkblue","gray","aqua","purple"]
+var images = ["img1.png","img2.webp","img3.jpg","img4.jpg","img5.jpg"]
 
-function changeColor(){
-    let randomIndex = Math.floor(Math.random() * colors.length)
+function changeImg(){
+
+    let randomIndex = Math.floor(Math.random() * images.length)
     console.log(randomIndex);
-
-    let mydiv = document.getElementById("mydiv")
-
-    mydiv.style.backgroundColor = colors[randomIndex]
     
+    let img = document.getElementById("img")
+
+    img.src = "https://tse1.mm.bing.net/th?id=OIP.KtDfV0WZAuNwSfIoWt1M7gHaDF&pid=Api&P=0&h=180"+images[randomIndex]
+
 }
